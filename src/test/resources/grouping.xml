@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<groups>
+    <run>
+        <include name="Sanity"/>
+        <include name="Regression"/>
+        <include name="Master"/>
+<!--        <include name="DatadrivenTCs"/>-->
+<!--        <exclude name="DatadrivenTCs"></exclude>-->
+    </run>
+</groups>
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+    <test name="GridTest1">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
+            <class name="testCases.TC003_LoginDDT"/>
+        </classes>
+    </test>
+    <test name="GridTest2">
+        <parameter name="browser" value="safari"></parameter>
+        <parameter name="os" value="mac"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
+            <class name="testCases.TC003_LoginDDT"/>
+        </classes>
+    </test>
+</suite>

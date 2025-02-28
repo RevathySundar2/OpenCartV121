@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="logPath">./logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!-- Rolling File Appender -->
+        <RollingFile name="FileAppender" fileName="${logPath}/DemoApplication.log"
+                     filePattern="${logPath}/application-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="5000" />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="ALL">   <!-- Here you can use multiple log levels . ALL < Trace < Debug < Info < Warn < Error < Fatal < Off -->
+<!--            <AppenderRef ref="Console"/>-->
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+
+        <!-- Custom Logger -->
+<!--        <Logger name="com.example" level="debug" additivity="false">   -->
+<!--            <AppenderRef ref="Console"/>-->
+<!--            <AppenderRef ref="FileAppender"/>-->
+<!--        </Logger>-->
+    </Loggers>
+</Configuration>

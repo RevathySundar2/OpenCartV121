@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+<!--    <test name="TC002_LoginTest">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="os" value="mac"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC002_LoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="TC003_LoginDDTDataProviderTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <classes>
+            <class name="testCases.TC003_LoginDDT"/>
+        </classes>
+    </test>
+</suite>
