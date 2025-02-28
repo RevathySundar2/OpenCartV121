@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test thread-count="5" name="TC001_ParallelExeOnChrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="os" value="mac"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest">
+                <methods>
+                    <include name="verify_account_registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test thread-count="5" name="TC001_ParallelExe_OnFirefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="os" value="mac"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest">
+                <methods>
+                    <include name="verify_account_registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test thread-count="5" name="TC001_ParallelExe_OnSafari">-->
+<!--        <parameter name="browser" value="safari"></parameter>-->
+<!--        <parameter name="os" value="mac"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC001_AccountRegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="verify_account_registration"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test thread-count="5" name="TC001_ParallelExeOnChromeWin">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC001_AccountRegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="verify_account_registration"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test thread-count="5" name="TC001_ParallelExe_OnFirefoxWin">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC001_AccountRegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="verify_account_registration"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

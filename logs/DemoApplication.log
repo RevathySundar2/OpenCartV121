@@ -1,0 +1,40 @@
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-02-28 13:42:07 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-02-28 13:47:41 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/premnathsrinivasan/IdeaProjects/OpenCartV121/src/test/resources/testNG.xml"
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.tearDown()[pri:0, instance:null] 829687191
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC003_LoginDDT.verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@3abada5a] 666067305
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-02-28 13:47:41 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-02-28 13:47:41 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/premnathsrinivasan/IdeaProjects/OpenCartV121/src/test/resources/testNG.xml
+
