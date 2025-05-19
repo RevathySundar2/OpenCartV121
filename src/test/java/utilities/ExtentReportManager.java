@@ -40,7 +40,8 @@ public class ExtentReportManager implements ITestListener {
         String time = sdf.format(date); */
 
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd_HHmmss").format(new Date());
-        reportName = "Test-Report-" + timeStamp + ".html";
+        //reportName = "Test-Report-" + timeStamp + ".html";
+        reportName = "Test-Report.html";
 
         sparkReporter = new ExtentSparkReporter(".//reports/" + reportName);
 
